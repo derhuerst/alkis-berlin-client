@@ -1,0 +1,37 @@
+{
+	"name": "alkis-berlin-client",
+	"description": "Query ALKIS Berlin.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"lib"
+	],
+	"keywords": [
+		"alkis",
+		"berlin",
+		"liegenschaftskataster",
+		"kataster",
+		"cadastral",
+		"map",
+		"wfs"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/alkis-berlin-client",
+	"repository": "derhuerst/alkis-berlin-client",
+	"bugs": "https://github.com/derhuerst/alkis-berlin-client/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tape": "^4.6.3",
+		"tap-min": "^1.2.1"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
