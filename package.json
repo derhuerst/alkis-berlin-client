@@ -25,10 +25,16 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"fetch-ponyfill": "^4.1.0",
+		"iconv-lite": "^0.4.19",
+		"peek-stream": "^1.1.2",
+		"pinkie-promise": "^2.0.1",
+		"qs": "^6.5.1",
+		"xml-flow": "^1.0.1"
 	},
 	"devDependencies": {
-		"tape": "^4.6.3",
-		"tap-min": "^1.2.1"
+		"tap-min": "^1.2.1",
+		"tape": "^4.6.3"
 	},
 	"scripts": {
 		"test": "node test.js | tap-min",
