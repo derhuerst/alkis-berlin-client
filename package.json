@@ -33,7 +33,7 @@
 		"pinkie-promise": "^2.0.1",
 		"qs": "^6.5.1",
 		"transform-coordinates": "^0.1.0",
-		"xml-flow": "^1.0.1"
+		"xml-reader": "^2.4.3"
 	},
 	"devDependencies": {
 		"tap-min": "^1.2.1",
