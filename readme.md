@@ -1,6 +1,9 @@
 # alkis-berlin-client
 
-**Query [ALKIS Berlin](https://de.wikipedia.org/wiki/Amtliches_Liegenschaftskatasterinformationssystem), the [cadastral map](https://en.wikipedia.org/wiki/Plat) for Berlin**, containing shapes of all Buildings, land use zones, sections of owned land, etc.
+**Query [ALKIS](https://de.wikipedia.org/wiki/Amtliches_Liegenschaftskatasterinformationssystem), the [cadastral map](https://en.wikipedia.org/wiki/Plat) of Berlin**, containing shapes of all Buildings, land use zones, sections of owned land, etc. Caveats:
+
+- Sending requests with a filter by item type doesn't work yet.
+- Ability to query a single item is missing.
 
 [![npm version](https://img.shields.io/npm/v/alkis-berlin-client.svg)](https://www.npmjs.com/package/alkis-berlin-client)
 [![build status](https://img.shields.io/travis/derhuerst/alkis-berlin-client.svg)](https://travis-ci.org/derhuerst/alkis-berlin-client)
@@ -17,8 +20,18 @@ npm install alkis-berlin-client
 
 ## Usage
 
+Items will have be parsed XML elements in the format of [xml-reader](https://github.com/pladaria/xml-reader#node-structure).
+
 ```js
-todo
+const {getItems} = require('alkis-berlin-client')
+
+const alexanderplatz = [392500, 5820000, 392000, 5820500]
+
+getItems('fis:s_wfs_alkis_bauwerkeflaechen', alexanderplatz)
+.on('data', (structure) => {
+	console.log(structure)
+})
+.on('error', console.error)
 ```
 
 
