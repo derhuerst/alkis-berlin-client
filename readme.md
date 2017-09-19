@@ -1,6 +1,6 @@
 # alkis-berlin-client
 
-**Query [ALKIS Berlin](https://de.wikipedia.org/wiki/Amtliches_Liegenschaftskatasterinformationssystem)**, the [cadastral map](https://en.wikipedia.org/wiki/Plat) for Berlin, containing shapes of all Buildings, land use zones, sections of owned land, etc.
+**Query [ALKIS Berlin](https://de.wikipedia.org/wiki/Amtliches_Liegenschaftskatasterinformationssystem), the [cadastral map](https://en.wikipedia.org/wiki/Plat) for Berlin**, containing shapes of all Buildings, land use zones, sections of owned land, etc.
 
 [![npm version](https://img.shields.io/npm/v/alkis-berlin-client.svg)](https://www.npmjs.com/package/alkis-berlin-client)
 [![build status](https://img.shields.io/travis/derhuerst/alkis-berlin-client.svg)](https://travis-ci.org/derhuerst/alkis-berlin-client)

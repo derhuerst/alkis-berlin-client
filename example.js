@@ -2,10 +2,9 @@
 
 const {getItems} = require('.')
 
-const alex = [392500, 5820000, 392000, 5820500]
-const someHouse = [393377, 5823461, 393127, 5823608]
+const alexanderplatz = [392500, 5820000, 392000, 5820500]
 
-getItems('fis:s_wfs_alkis_bauwerkeflaechen', someHouse)
+getItems('fis:s_wfs_alkis_bauwerkeflaechen', alexanderplatz)
 .on('data', (structure) => {
 	console.log(structure)
 })
