@@ -1,7 +1,9 @@
 'use strict'
 
 const request = require('./lib/request')
-const parseStructure = require('./lib/parse-structure')
+const createParseStructure = require('./lib/parse-structure')
+
+const isObj = (v) => 'object' === typeof v && !Array.isArray(v)
 
 const getItems = (layer, bbox, opt = {}) => {
 	if ('string' !== typeof layer) throw new Error('layer must be a string')
@@ -9,8 +11,11 @@ const getItems = (layer, bbox, opt = {}) => {
 
 	const filter = opt.filter || layer
 	if ('string' !== typeof filter) throw new Error('filter must be a string')
-	const parse = opt.parse || parseStructure
-	if ('function' !== typeof parse) throw new Error('parse must be a function')
+
+	if (('fields' in opt) && !isObj(opt.fields)) {
+		throw new Error('opt.fields must be an object')
+	}
+	const parse = createParseStructure(opt.fields)
 
 	return request({
 		request: 'GetFeature',
