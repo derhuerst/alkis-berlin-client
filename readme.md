@@ -20,7 +20,7 @@ npm install alkis-berlin-client
 
 ## Usage
 
-Items will have be parsed XML elements in the format of [xml-reader](https://github.com/pladaria/xml-reader#node-structure).
+Items will be parsed XML elements in the format of [xml-reader](https://github.com/pladaria/xml-reader#node-structure).
 
 ```js
 const {getItems} = require('alkis-berlin-client')

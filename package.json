@@ -1,12 +1,11 @@
 {
 	"name": "alkis-berlin-client",
 	"description": "Query ALKIS Berlin.",
-	"version": "0.1.0",
+	"version": "0.2.1",
 	"main": "index.js",
 	"files": [
 		"index.js",
-		"lib",
-		"parse-polygon.js"
+		"lib"
 	],
 	"keywords": [
 		"alkis",
