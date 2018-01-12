@@ -25,14 +25,10 @@
 		"node": ">=6"
 	},
 	"dependencies": {
-		"fetch-ponyfill": "^4.1.0",
-		"iconv-lite": "^0.4.19",
 		"parse-gml-polygon": "^0.2.1",
-		"peek-stream": "^1.1.2",
-		"pinkie-promise": "^2.0.1",
-		"qs": "^6.5.1",
-		"transform-coordinates": "^0.1.0",
-		"xml-reader": "^2.4.3"
+		"query-fis-broker-wfs": "^0.1.0",
+		"through2": "^2.0.3",
+		"transform-coordinates": "^0.1.0"
 	},
 	"devDependencies": {
 		"tap-min": "^1.2.1",
