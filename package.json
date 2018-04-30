@@ -25,7 +25,7 @@
 		"node": ">=6"
 	},
 	"dependencies": {
-		"parse-gml-polygon": "^0.2.1",
+		"parse-gml-polygon": "^0.3.2",
 		"query-fis-broker-wfs": "^0.1.0",
 		"through2": "^2.0.3",
 		"transform-coordinates": "^0.1.0"
