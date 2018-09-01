@@ -5,8 +5,7 @@ const through = require('through2')
 
 const createParseStructure = require('./lib/parse-structure')
 
-// todo: https
-const endpoint = 'http://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_bauwerkeflaechen'
+const endpoint = 'https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_bauwerkeflaechen'
 
 const isObj = (v) => 'object' === typeof v && !Array.isArray(v)
 
