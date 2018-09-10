@@ -1,7 +1,7 @@
 {
 	"name": "alkis-berlin-client",
 	"description": "Query ALKIS Berlin.",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"main": "index.js",
 	"files": [
 		"index.js",
