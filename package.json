@@ -31,11 +31,13 @@
 		"transform-coordinates": "^1.0.0"
 	},
 	"devDependencies": {
+		"eslint": "^8.35.0",
 		"tap-min": "^2.0.0",
 		"tape": "^5.6.3"
 	},
 	"scripts": {
+		"lint": "eslint .",
 		"test": "node test.js | tap-min",
-		"prepublishOnly": "npm test"
+		"prepublishOnly": "npm run lint && npm test"
 	}
 }
