@@ -10,6 +10,8 @@
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 [![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
 
+*Note:* You can also [download Shapefiles & DXF files directly](https://www.berlin.de/sen/sbw/stadtdaten/geoportal/liegenschaftskataster/) by now.
+
 
 ## Installing
 
