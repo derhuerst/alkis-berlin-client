@@ -1,8 +1,6 @@
-'use strict'
+import test from 'tape'
 
-const test = require('tape')
-
-const todo = require('.')
+// import {todo} from './index.js'
 
 test('todo', (t) => {
 })

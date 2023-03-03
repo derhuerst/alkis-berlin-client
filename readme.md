@@ -23,7 +23,7 @@ npm install alkis-berlin-client
 Items will be parsed XML elements in the format of [xml-reader](https://github.com/pladaria/xml-reader#node-structure).
 
 ```js
-const {getItems} = require('alkis-berlin-client')
+import {getItems} from 'alkis-berlin-client'
 
 const alexanderplatz = [392500, 5820000, 392000, 5820500]
 

@@ -2,6 +2,7 @@
 	"name": "alkis-berlin-client",
 	"description": "Query ALKIS Berlin.",
 	"version": "1.0.5",
+	"type": "module",
 	"main": "index.js",
 	"files": [
 		"index.js",
@@ -22,7 +23,7 @@
 	"bugs": "https://github.com/derhuerst/alkis-berlin-client/issues",
 	"license": "ISC",
 	"engines": {
-		"node": ">=6"
+		"node": ">=18"
 	},
 	"dependencies": {
 		"parse-gml-polygon": "^0.3.2",

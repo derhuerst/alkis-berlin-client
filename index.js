@@ -1,9 +1,7 @@
-'use strict'
+import getFeatures from 'query-fis-broker-wfs/get-features.js'
+import through from 'through2'
 
-const getFeatures = require('query-fis-broker-wfs/get-features')
-const through = require('through2')
-
-const createParseStructure = require('./lib/parse-structure')
+import {createParseStructure} from './lib/parse-structure.js'
 
 const endpoint = 'https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_bauwerkeflaechen'
 
@@ -32,4 +30,7 @@ const getItems = (layer, bbox, opt = {}) => {
 }
 
 // todo: getItem, bbox, etc
-module.exports = {getItems}
+
+export {
+	getItems,
+}
