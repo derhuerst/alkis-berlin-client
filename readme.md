@@ -6,7 +6,6 @@
 - Ability to query a single item is missing.
 
 [![npm version](https://img.shields.io/npm/v/alkis-berlin-client.svg)](https://www.npmjs.com/package/alkis-berlin-client)
-[![build status](https://img.shields.io/travis/derhuerst/alkis-berlin-client.svg)](https://travis-ci.org/derhuerst/alkis-berlin-client)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/alkis-berlin-client.svg)
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 [![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
