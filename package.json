@@ -27,8 +27,7 @@
 	},
 	"dependencies": {
 		"parse-gml-polygon": "^0.3.2",
-		"query-fis-broker-wfs": "^0.1.0",
-		"through2": "^2.0.3",
+		"query-fis-broker-wfs": "^2.0.0",
 		"transform-coordinates": "^1.0.0"
 	},
 	"devDependencies": {

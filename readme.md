@@ -27,11 +27,10 @@ import {getItems} from 'alkis-berlin-client'
 
 const alexanderplatz = [392500, 5820000, 392000, 5820500]
 
-getItems('fis:s_wfs_alkis_bauwerkeflaechen', alexanderplatz)
-.on('data', (structure) => {
+const structures = getItems('fis:s_wfs_alkis_bauwerkeflaechen', alexanderplatz)
+for await (const structure of structures) {
 	console.log(structure)
-})
-.on('error', console.error)
+}
 ```
 
 
