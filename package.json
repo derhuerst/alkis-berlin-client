@@ -29,11 +29,11 @@
 		"parse-gml-polygon": "^0.3.2",
 		"query-fis-broker-wfs": "^0.1.0",
 		"through2": "^2.0.3",
-		"transform-coordinates": "^0.1.0"
+		"transform-coordinates": "^1.0.0"
 	},
 	"devDependencies": {
-		"tap-min": "^1.2.1",
-		"tape": "^4.6.3"
+		"tap-min": "^2.0.0",
+		"tape": "^5.6.3"
 	},
 	"scripts": {
 		"test": "node test.js | tap-min",
