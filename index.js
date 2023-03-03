@@ -2,7 +2,7 @@ import {getFeatures} from 'query-fis-broker-wfs/get-features.js'
 
 import {createParseStructure} from './lib/parse-structure.js'
 
-const endpoint = 'https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_bauwerkeflaechen'
+const endpoint = 'https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_gebaeudeflaechen'
 
 const isObj = (v) => 'object' === typeof v && !Array.isArray(v)
 
